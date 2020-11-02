@@ -1,8 +1,7 @@
+import { StyledButton } from './styles/StyledButton';
 
-const StartButton = ({callback}) => {
-  return (
-    <div>Start Game</div>
-  )
-}
+const StartButton = ({ callback }) => {
+  return <StyledButton onClick={callback}>Start Game</StyledButton>;
+};
 
 export default StartButton;
